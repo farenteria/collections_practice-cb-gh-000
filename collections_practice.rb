@@ -59,7 +59,7 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.collect do | word, index |
+  arr.each_with_index.map do | word  index |
     if index != 1
       word += "s"
     end
