@@ -36,6 +36,6 @@ end
 
 def kesha_maker(arr)
   arr.collect do | name |
-    
+    name[2] = "$"
   end
 end
