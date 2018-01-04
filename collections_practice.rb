@@ -35,5 +35,7 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-
+  arr.collect do | name |
+    
+  end
 end
