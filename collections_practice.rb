@@ -47,3 +47,7 @@ def find_a(arr)
     word[0] == "a" || word[0] == "A"
   end
 end
+
+def sum_array(arr)
+
+end
