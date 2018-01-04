@@ -49,5 +49,9 @@ def find_a(arr)
 end
 
 def sum_array(arr)
+  sum = 0
 
+  arr.each do | num |
+    sum += num
+  end
 end
